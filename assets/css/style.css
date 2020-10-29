@@ -658,15 +658,14 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  transition: all 0.5s ease-in-out 0s;
-}
-
 .journal-block .journal-info .journal-txt p {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+}
+.journal-block .journal-info .journal-txt a:hover {
+  color: #007bff;
+  z-index: 50;
 }
 
 /*--------------------------------------------------------------
