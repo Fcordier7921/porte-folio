@@ -70,8 +70,8 @@
         <p class="typed-items" data-typed-person="Frédéric cordier" style="display: none;"> un développeur web, un développeur web mobile, un frontend, un backend</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="https://www.linkedin.com/feed/"><i class="ion-social-linkedin"></i></a></li>
-          <li><a href="https://github.com/Fcordier7921#"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/Fcordier7921#" target="_blank"><i class="ion-social-github"></i></a></li>
         </ul>
       </div>
     </div>
@@ -171,6 +171,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">Site web</li>
               <li data-filter=".filter-card">Ma formation</li>
+              <li data-filter=".filter-card">projet personelle</li>
             </ul>
           </div>
         </div>
@@ -193,9 +194,9 @@
             <div class="portfolio-info">
               <h4>Web 3</h4>
               <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/portfolio/portfolio-2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -204,9 +205,9 @@
             <div class="portfolio-info">
               <h4>App 2</h4>
               <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/portfolio/portfolio-3.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="portfolio-details.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -215,9 +216,9 @@
             <div class="portfolio-info">
               <h4>Card 2</h4>
               <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/portfolio/portfolio-4.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -226,9 +227,9 @@
             <div class="portfolio-info">
               <h4>Web 2</h4>
               <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/portfolio/portfolio-5.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -237,9 +238,9 @@
             <div class="portfolio-info">
               <h4>App 3</h4>
               <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/portfolio/portfolio-6.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -271,7 +272,7 @@
 
                   <h4><a href="https://www.youtube.com/watch?v=ZwL0t5kPf6E&feature=emb_title&ab_channel=hervepellarin" target="blanck">Le Drone FPV</a></h4>
                   <p class="separator">Cela fait plusieur années que je pilote des drones
-                    en immersion (first person view). 
+                    en immersion (first person view). Le vol en immersion c'est le fait d'avoire un caméra sur le drone qui transmet les image a un masque ou des lunette, ce principe permet d'avoir l'impression d'être dans le drone.
                   </p>
 
                 </div>
@@ -303,7 +304,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=eLadGBwCw1U&ab_channel=SteveLessard" target="blanck">La musique</a></h4>
-                  <p class="separator">J'ai commence la musique trés jeunne et je n'ai jamais arréter, je joue de la guitare, de la guitare basse et de la trompette.
+                  <p class="separator">J'ai commence la musique trés jeunne et je n'ai jamais arréter, je joue de la guitare, de la guitare basse et de la trompette. 
                   </p>
 
                 </div>
@@ -364,7 +365,7 @@
     </div><!-- End Journal Section -->
 
     <!-- ======= Contact Section ======= -->
-    <div id="contact" class="paddsection">
+    <div id="contact" name="contact" class="paddsection">
       <div class="container">
         <div class="contact-block1">
           <div class="row">
@@ -385,49 +386,32 @@
             </div>
 
             <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="forms/contact.php" method="post" >
                 <div class="row">
 
                   <div class="col-lg-6">
                     <div class="form-group contact-block1">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Nom"
-                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <input type="text" name="nom" placeholder="Votre nom" class="form-control " value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" /><br /><br />
                       <div class="validate"></div>
                     </div>
                   </div>
 
                   <div class="col-lg-6">
                     <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email"
-                        data-rule="email" data-msg="Please enter a valid email" />
+                      <input type="email" name="mail" placeholder="Votre email" class="form-control " value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>" /><br /><br />
                       <div class="validate"></div>
                     </div>
                   </div>
 
                   <div class="col-lg-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet"
-                        data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <textarea name="message" placeholder="Votre message" class="form-control formulaire2"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea><br /><br />
                       <div class="validate"></div>
                     </div>
                   </div>
-
                   <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" rows="12" data-rule="required"
-                        data-msg="Please write something for us" placeholder="Message"></textarea>
-                      <div class="validate"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12 mb-3">
-                    <div class="loading">Chargement</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Votre message a bien été envoyer!</div>
-                  </div>
-
-                  <div class="col-lg-12">
-                    <input type="submit" class="btn btn-defeault btn-send" value="ENVOYER">
+                    <input type="submit" value="Envoyer !" class="btn btn-secondary" name="mailform"/><br/>
+                    
                   </div>
 
                 </div>
@@ -446,8 +430,8 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="https://www.linkedin.com/feed/"><i class="ion-social-linkedin"></i></a></li>
-          <li><a href="https://github.com/Fcordier7921#"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="https://github.com/Fcordier7921#" target="_blank"><i class="ion-social-github"></i></a></li>
         </ul>
 
       </div>
@@ -461,7 +445,7 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
       -->
-        Designed by <a href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-cordier-77646512a/">Fred CORDIER</a>
+        Designed by <a href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-cordier-77646512a/" target="_blank">Fred CORDIER</a>
       </div>
 
     </div>

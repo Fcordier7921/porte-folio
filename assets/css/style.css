@@ -881,7 +881,7 @@ nav ul li a {
 }
 
 /* Commonts form */
-.cmt {
+/* .cmt {
   background: #fff;
 }
 
@@ -891,8 +891,10 @@ blockquote {
   margin: 30px 0;
   border: none;
   border-left: 4px solid #b8a07e;
+} */
+.formulaire2{
+  min-height: 7rem;
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
