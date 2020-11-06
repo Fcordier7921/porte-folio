@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Folio Frédéric CORDIER</title>
-  <meta content="" name="descriptison">
+  <meta content="Venez me découvrir un jeune développeur a votre service. " name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -67,7 +67,7 @@
     <div class="container">
       <div class="hero-content">
         <h1>Je suis <span class="typed"></span></h1>
-        <p class="typed-items" data-typed-person="Frédéric cordier" style="display: none;"> un développeur web, un développeur web mobile, un frontend, un backend</p>
+        <p class="typed-items" data-typed-person="Frédéric cordier" style="display: none;"> un développeur web junior, un développeur web mobile, un frontend, un backend</p>
 
         <ul class="list-unstyled list-social">
           <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
@@ -171,7 +171,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">Site web</li>
               <li data-filter=".filter-card">Ma formation</li>
-              <li data-filter=".filter-card">projet personelle</li>
+              <li data-filter=".filter-perso">projet personelle</li>
             </ul>
           </div>
         </div>
@@ -181,66 +181,44 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
+              <h4>Des futures projets </h4>
+              <p>seront bientôt disponibles</p>
               <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link"
                 title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
-                title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
-                title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="assets/img/burgers.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+              <h4>exo site pour une restaurent de burgers</h4>
+              <p>découverte de l'utilisation de bootstrap</p>
+              <a href="assets/img/burgers.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="projet/projet_2/index.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/creativs.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
-                title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>exo site d'un créatif</h4>
+              <p>réalisation d'un site a partire <br>d'une maquette sans utiliser bootstrap</p>
+              <a href="assets/img/creativs.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+                title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="projet/projet_3/index.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-perso">
+            <img src="assets/img/mon_menu2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
-                title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Générateur de menu</h4>
+              <p>Pour organiser mon menu<br> de la semaine et mieux gerer mes dépences</p>
+              <a href="assets/img/mon menu.png" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+                title="perso 1"><i class="bx bx-plus"></i></a>
+              <a href="projet/Tom_Menu_de_la_semaine_programation.xlsm" download class="details-link"  title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
