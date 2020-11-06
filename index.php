@@ -194,7 +194,7 @@
             <div class="portfolio-info">
               <h4>exo site pour une restaurent de burgers</h4>
               <p>découverte de l'utilisation de bootstrap</p>
-              <a href="assets/img/burgers.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/burgers_2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="projet/projet_2/index.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
@@ -205,7 +205,7 @@
             <div class="portfolio-info">
               <h4>exo site d'un créatif</h4>
               <p>réalisation d'un site a partire <br>d'une maquette sans utiliser bootstrap</p>
-              <a href="assets/img/creativs.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/creativs_2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="projet/projet_3/index.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
