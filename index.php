@@ -212,11 +212,11 @@
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-perso">
-            <img src="assets/img/mon_menu2.png" class="img-fluid" alt="">
+            <img src="assets/img/menu.JPG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Générateur de menu</h4>
               <p>Pour organiser mon menu<br> de la semaine et mieux gerer mes dépences</p>
-              <a href="assets/img/mon menu.png" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+              <a href="assets/img/menu2.JPG" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="perso 1"><i class="bx bx-plus"></i></a>
               <a href="projet/Tom_Menu_de_la_semaine_programation.xlsm" download class="details-link"  title="More Details"><i class="bx bx-link"></i></a>
             </div>
