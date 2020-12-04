@@ -222,6 +222,17 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/admin_inter.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>exo création d'une administration d'une consiergerie</h4>
+              <p>réalisation d'un administration en php <br>de la gestion des intervention d'un conciergerie</p>
+              <a href="assets/img/admin_inter_2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+                title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="projet/gest_imm/index.php" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-perso">
             <img src="assets/img/menu.JPG" class="img-fluid" alt="">
             <div class="portfolio-info">
