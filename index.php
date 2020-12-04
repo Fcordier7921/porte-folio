@@ -27,7 +27,7 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.min.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Folio - v2.1.0
@@ -208,6 +208,17 @@
               <a href="assets/img/creativs_2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="projet/projet_3/index.html" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/hertz.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>exo création d'une administration de location de voiture</h4>
+              <p>réalisation d'un administration en php <br>d'une location de voiture</p>
+              <a href="assets/img/hertz_2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+                title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="projet/HERTZ-PhP/index.php" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 

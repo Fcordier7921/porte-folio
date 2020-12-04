@@ -1,0 +1,528 @@
+/*traitemant des information de police et de couleur globale*/
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../font/Roboto-Regular-webfont.eot');
+  src: url('../font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/Roboto-Regular-webfont.woff2') format('woff2'),
+    url('../font/Roboto-Regular-webfont.woff') format('woff'),
+    url('../font/Roboto-Regular-webfont.ttf') format('truetype'),
+    url('../font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+}
+
+@font-face {
+  font-family: 'Forte';
+  src: url('http://www.fontsaddict.com/fontface/forte.ttf');
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(46, 46, 46);
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Forte', Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'robotoregular', Arial, sans-serif;
+  color: white;
+}
+/*partie hearder*/
+#home{
+  position: fixed;
+  background-color:  rgb(46, 46, 46);
+  z-index: 10;
+  width: 100%;
+}
+.navbar p {
+  font-size: 1.5vw;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../img/menub.png);
+
+}
+
+.navbar a {
+  margin: 0.5vw;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+
+  .nav-item,
+  .navbar p {
+    font-size: 1em;
+  }
+  #home{
+    max-width: 100%;
+  }
+}
+
+
+/*prensentation de l'entreprise*/
+.presentation {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  min-height: 750px;
+  margin-bottom: 5rem;
+
+}
+
+.img_p {
+  background-image: url(../img/artisan-du-burger-14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  font-size: 15vw;
+  -webkit-text-stroke: 5px black;
+  text-shadow: black 10px 10px 4px;
+  margin-top: 12rem;
+}
+
+.img_p h2 {
+  color: white;
+  font-size: 5vw;
+  -webkit-text-stroke: 5px black;
+  text-shadow: black 10px 10px 4px;
+}
+
+.Fait {
+  background-color: white;
+}
+
+.Fait h3 {
+  font-size: 4vw;
+  justify-content: start;
+  color: black;
+}
+
+.Fait p {
+  color: black;
+  font-size: 2vw;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+
+  .img_p {
+    background-image: none;
+  }
+  #presentation{
+    background-image: url(../img/artisan-du-burger-14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  h1 {
+    font-size: 22vw;
+    -webkit-text-stroke: 2px black;
+    text-shadow: black 5px 5px 4px;
+    margin-top: 4rem;
+  }
+  .img_p h2 {
+    color: white;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px black;
+    text-shadow: black 5px 5px 4px;
+  }
+  .Fait {
+    position: relative;
+    bottom: 5rem;
+    background-color: transparent;
+  }
+  .Fait h3 {
+    font-size: 6vw;
+    justify-content: start;
+    color: white;
+    text-shadow: black 5px 5px 4px;
+  }
+  .Fait p {
+    color:white;
+    font-size: 6vw;
+    text-shadow: black 5px 5px 4px;
+  }
+  
+}
+
+/*prensentations des formules*/
+
+#formules h2,
+h3 {
+  color: white;
+}
+
+#formules h2 {
+  font-size: 4vw;
+}
+
+#formules h3 {
+  font-size: 2.5vw;
+  text-decoration: underline;
+}
+
+#formules p {
+  font-size: 1.5vw;
+  margin-top: 2rem;
+}
+
+.f1 {
+  height: 30rem;
+margin: auto;
+padding: 0;
+
+}
+
+#formules a {
+  position: absolute;
+  top: 23rem;
+  left: 2rem;
+  border-radius: 17px;
+  box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  #formules h2 {
+    font-size: 10vw;
+   margin-top: -6rem;    
+  }
+  #formules h3 {
+    font-size: 7vw;
+    text-align: center;
+  }
+  #formules p {
+    font-size: 7vw;
+    text-align: center;
+  }
+  #formules a {
+    position: absolute;
+    top: 17rem;
+    left: 8rem;
+    border-radius: 17px;
+    box-shadow: white 2px 2px 4px;
+    border: black solid 1px;
+  }
+}
+
+
+/*presentation des burgeurs phares*/
+.b_p {
+  max-height: 52rem;
+  background-color: white;
+}
+
+.b_p h3 {
+  color: black;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.b_p p {
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  #burg_phares{
+    display: flex;
+    max-width: 100%;
+    
+  }
+  .b_p {
+    position: absolute;
+    background-color: transparent;
+    margin-left: auto;
+    z-index: 10;
+  }
+  .burgs1{
+    min-height: 10rem;
+    
+  
+  }
+  .b_p h3 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    -webkit-text-stroke: 1px black;
+    text-shadow: black 5px 5px 4px;
+  }
+  
+  .b_p p {
+    color: white;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    -webkit-text-stroke: 1px black;
+    text-shadow: black 5px 5px 4px;
+  }
+  .b_p img{
+    max-width: 10%;
+  }
+}
+
+
+/*liste des burgers*/
+.t_b {
+  color: white;
+}
+
+#burg_phares {
+  max-width: 1590px;
+}
+
+#Nos_burgers h2 {
+  min-height: 7rem;
+  font-size: 4vw;
+  white-space: nowrap;
+}
+
+#Nos_burgers h3 {
+  position: absolute;
+  top: 1rem;
+  font-size: 3vw;
+}
+
+.t_mobile {
+  display: none;
+}
+
+.box_b {
+  position: relative;
+  height: 22rem;
+  border: solid white 3px;
+}
+
+.box_b h3 {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-stroke: 3px black;
+  text-shadow: black 7px 7px 4px;
+}
+
+.survol {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.survol2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 36rem;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.box_b:hover .survol {
+  display: block;
+  z-index: 1;
+}
+
+.box_b:hover .survol2 {
+  display: block;
+  z-index: 1;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .t_ordi{
+    display: none;
+  }.t_mobile {
+    display: block;
+    min-height: 375px;
+    background-image: url(img/1973833203_03392424ac_z.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}
+
+
+/*présentation du bar*/
+#bar {
+  min-height: 100rem;
+  margin-top: 5rem;
+  max-width: 1590px;
+
+}
+
+.titre {
+  min-height: 10rem;
+  padding-left: 20rem;
+}
+
+.titre img {
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.titre h2 {
+  font-size: 9vw;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-shadow: black 7px 7px 4px;
+  padding-left: 5rem;
+}
+
+#bar p {
+  font-size: 2rem;
+}
+
+.cart_bar {
+  max-width: 25rem;
+  font-size: 3rvw;
+  margin-top: 5rem;
+  margin-left: 35rem;
+  margin-bottom: 5rem;
+  border-radius: 50px;
+  box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
+}
+
+.carousel-inner img {
+  min-width: 100%;
+  max-height: 1000px;
+}
+
+.car_bar2 {
+  min-height: 5rem;
+  background-color: brown;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {}
+
+
+
+/*présentations du petit déjeuner*/
+#petit_dej {
+  background-image: url(../img/coffee-morning-breakfast-croissant-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 150rem;
+}
+
+.titre2 {
+  height: 10rem;
+  padding-left: 5rem;
+}
+
+.titre2 h2 {
+  font-size: 10vw;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-shadow: black 7px 7px 4px;
+  padding-left: 5rem;
+}
+
+.titre2 img {
+  max-height: 60%;
+  max-width: 6rem;
+  margin-top: 3rem;
+  margin-left: 20rem;
+}
+
+#petit_dej p {
+  font-size: 5vw;
+  margin: 150px 80px 0 120px;
+}
+
+.cart_pdj {
+  width: 40rem;
+  font-size: 3vw;
+  margin-top: 5rem;
+  margin-left: 25rem;
+  margin-bottom: 5rem;
+  border-radius: 100px;
+  box-shadow: white 2px 2px 4px;
+  border: black solid 1px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {}
+
+
+
+/*parti renseignmentdu restaurent*/
+#carte {
+  max-height: 150rem;
+  margin-bottom: 5rem;
+}
+
+.cordoné h3 {
+  font-size: 5vw;
+}
+
+.cordoné p {
+  font-size: 3vw;
+}
+
+/*formulaire de contact*/
+#contact {
+  background-image: url(../img/3849117681_356ddfa030_z.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 60rem;
+}
+
+#contact h2 {
+  font-size: 8vw;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-shadow: black 10px 10px 4px;
+  margin-top: -2rem;
+}
+
+.mess {
+  padding-bottom: 10rem;
+}
+
+.cont_e {
+  width: 40rem;
+  font-size: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  border-radius: 100px;
+  box-shadow: black 10px 10px 4px;
+  border: black solid 1px;
+}
+
+#contact input,
+textarea {
+  font-size: 1rem;
+  color: red;
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {}
+
+
+
+/* pied de page*/
+footer h3 {
+  font-size: 0, 4vw;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {}
