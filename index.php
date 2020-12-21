@@ -45,13 +45,13 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="assets/img//logo.png" alt="logo"></a>
+          <a href="index.php"><img src="assets/img//logo.png" alt="logo"></a>
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="index.html" class="smoothScroll">Home</a></li>
+          <li><a href="index.php" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
@@ -95,9 +95,9 @@
           <div class="col-lg-7">
             <div class="about-descr">
 
-              <p class="p-heading">Je suis un développeur web et web mobile. </p>
-              <p class="separator">Je m'apelle frédéric CORDIER et je suis un jeune développeur web. je suis actuellement basé a Louhans en france. Mon ojectif principale est le déweloppement front, et javaScript.</br>
-              J'ai également apris le développement backend et le framwork syphoni </p>
+              <p class="p-heading">Je suis un développeur web. </p>
+              <p class="separator">Je m'appelle Frédéric CORDIER et je suis un jeune développeur web. je suis actuellement basé à Louhans en France. Mon objectif principal est le développement front et javaScript.</br>
+              J'ai également appris le développement backend et le framework symfony </p>
 
             </div>
 
@@ -132,15 +132,15 @@
 
             <i class="ion-ios-color-wand-outline"></i>
             <span>WEB DESIGN</span>
-            <p class="separator">Je peut adapter des maquette, pour qu'elle consponde a vos attente sans passer par un designeur web </p>
+            <p class="separator">Je peux créer des maquettes, pour qu'elles correspondent à vos attentes sans passer par un designer web </p>
 
           </div>
 
           <div class="services-block">
 
             <i class="ion-ios-lightbulb-outline"></i>
-            <span>RENDRE VOS SITE DINAMIQUE</span>
-            <p class="separator"> En dévelopement backend, je peut vous faire un site dinamique qui attirerat l'oeil </p>
+            <span>RENDRE VOS SITE DYNAMIQUE</span>
+            <p class="separator"> En développement backend,je peux vous faire un site dynamique qui attire l'oeil </p>
 
           </div>
 
@@ -171,7 +171,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">Site web</li>
               <li data-filter=".filter-card">Ma formation</li>
-              <li data-filter=".filter-perso">projet personelle</li>
+              <li data-filter=".filter-perso">projet personel</li>
             </ul>
           </div>
         </div>
@@ -225,7 +225,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/admin_inter.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>exo création d'une administration d'une consiergerie</h4>
+              <h4>exo création d'une administration d'une conciergerie</h4>
               <p>réalisation d'un administration en php <br>de la gestion des intervention d'un conciergerie</p>
               <a href="assets/img/admin_inter_2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="Card 2"><i class="bx bx-plus"></i></a>
@@ -233,11 +233,22 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/chat.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>exo création d'un chat d'entrprise en</h4>
+              <p>réalisation d'un chat <br>utilisent l'ajax (user:yannd@contact.fr, mot de passe: 0000 ; user: admin@contact.fr, mot de passe: admin </p>
+              <a href="assets/img/chat2.jpg" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
+                title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="projet/chat/index.php" class="details-link" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-perso">
             <img src="assets/img/menu.JPG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Générateur de menu</h4>
-              <p>Pour organiser mon menu<br> de la semaine et mieux gerer mes dépences</p>
+              <p>Pour organiser mon menu<br> de la semaine et mieux gerer mes dépenses</p>
               <a href="assets/img/menu2.JPG" target="_blank" data-gall="portfolioGallery" class="venobox preview-link"
                 title="perso 1"><i class="bx bx-plus"></i></a>
               <a href="projet/Tom_Menu_de_la_semaine_programation.xlsm" download class="details-link"  title="More Details"><i class="bx bx-link"></i></a>
@@ -255,7 +266,7 @@
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>Mes passion</h2>
+          <h2>Mes passions</h2>
         </div>
       </div>
 
@@ -271,8 +282,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=ZwL0t5kPf6E&feature=emb_title&ab_channel=hervepellarin" target="blanck">Le Drone FPV</a></h4>
-                  <p class="separator">Cela fait plusieur années que je pilote des drones
-                    en immersion (first person view). Le vol en immersion c'est le fait d'avoire un caméra sur le drone qui transmet les image a un masque ou des lunette, ce principe permet d'avoir l'impression d'être dans le drone.
+                  <p class="separator">Cela fait plusieurs années que je pilote des drones en immersion (first person view). Le vol en immersion c'est le fait d'avoir une caméra sur le drone qui transmet les images à un masque ou des lunette, ce principe permet d'avoir l'impression d'être dans le drone.
                   </p>
 
                 </div>
@@ -288,7 +298,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=xz2yytWqOGw&ab_channel=Yada" target="blanck">L'hardware informatique</a></h4>
-                  <p class="separator">Depuis de nombreuse années j'assemble et répare des ordinateur. Mais ce qui m'interesse aussi c'est l'évolution de la technologie. Ou l'on gagne en puissance de calcule tout en diminuant la consomation, car on arrive a graver les pièce encore plus finement.
+                  <p class="separator">Depuis de nombreuses années j'assemble et répare des ordinateurs. Mais ce qui m'intéresse aussi c'est l'évolution de la technologie. Ou l'on gagne en puissance de calcul tout en diminuant la consommation, car on arrive à graver les pièces encore plus finement.
                   </p>
 
                 </div>
@@ -304,7 +314,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=eLadGBwCw1U&ab_channel=SteveLessard" target="blanck">La musique</a></h4>
-                  <p class="separator">J'ai commence la musique trés jeunne et je n'ai jamais arréter, je joue de la guitare, de la guitare basse et de la trompette. 
+                  <p class="separator">J'ai commencé la musique très jeune et je n'ai jamais arrêter, je joue de la guitare, de la guitare basse et de la trompette.
                   </p>
 
                 </div>
@@ -320,7 +330,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=nqTXlt5y7Qw&ab_channel=Mosa%C3%AFkCristal" target="blanck">Aéromodélisme</a></h4>
-                  <p class="separator">Je pilote des avion et des planeurs radiocommander, j'adore cnstruire ces avions et pas la suite les pilotés.
+                  <p class="separator">Je pilote des avions et des planeurs radiocommandés, j'adore construire ces avions et pas la suite les piloter.
                   </p>
 
                 </div>
@@ -335,7 +345,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=55Sqk_tKf80&ab_channel=Heliox" target="blanck">Bricolage et projet Diy</a></h4>
-                  <p class="separator">Consevoir, réaliser, tester et réparer ce sont les points communs de tout mes passions. je fais de l'electronique(arhuino, razbery), de l'impression 3d , des meubles.
+                  <p class="separator">Concevoir, réaliser, tester et réparer ce sont les points communs de toutes mes passions. Je fais de l'électronique (arduino, raspberry), de l'impression 3d , des meubles.
                   </p>
 
                 </div>
@@ -350,7 +360,7 @@
                 <div class="journal-txt">
 
                   <h4><a href="https://www.youtube.com/watch?v=QI7aQMvP_zI&ab_channel=France3Bourgogne-Franche-Comt%C3%A9" target="blanck">Sport</a></h4>
-                  <p class="separator"> "Un esprit sain dans un corps sain. " Pour moi, pour avoir un vie épanouie qu'elle soit professionelle ou personelle , passe par de l'activité physique. mes sports de prédilection son le cyclisme et la cource a pied.
+                  <p class="separator"> "Un esprit sain dans un corps sain. " Pour moi, pour avoir une vie épanouie qu'elle soit professionnelle ou personnelle, passe par de l'activité physique. Mes sports de prédilection son le cyclisme et la course à pied.
                   </p>
 
                 </div>

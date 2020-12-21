@@ -6,7 +6,7 @@ function connect()
     {
         try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=hertz;port=3306;charset=utf8', 'root', '');
+            $bdd = new PDO('mysql:host=localhost;dbname=fredericc_hertz;port=3306;charset=utf8', 'fredericc', 'pSLp6Jpk8yjbtA==');
             return $bdd;
             $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $bdd->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
